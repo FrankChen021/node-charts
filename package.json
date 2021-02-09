@@ -1,0 +1,23 @@
+{
+  "name": "imageservicenode",
+  "version": "1.0.0",
+  "description": "Render an Apache Echarts to PNG image and save it to Alibaba Cloud Storage(OSS)",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.13.2",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.6.1",
+    "echarts": "^5.0.1",
+    "express": "^4.17.1",
+    "expression": "^0.0.1",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1",
+    "node-gyp": "^7.1.2",
+    "uuid": "^3.4.0"
+  }
+}
