@@ -4,7 +4,6 @@ This project ships a HTTP service which converts an Apache ECharts to a PNG imag
 
 # Build
 
-Run
 ```
 docker build -t image-render .
 ```
@@ -20,7 +19,7 @@ docker run -d -p 9999:80 image-render
 ## Convert Apache EChart to base64-formatted image
 
 POST the following request to http://<YOUR_HOST>:9999/convert to get base64-formatted image
-
+```
 {
     "height": 600,
     "width": 800,
@@ -56,5 +55,5 @@ POST the following request to http://<YOUR_HOST>:9999/convert to get base64-form
         ]
     }
 }
-
-Note: the ECharts option above is taken from the [Apache ECharts Offical Site](https://echarts.apache.org/examples/zh/editor.html?c=line-simple)
+```
+Note: the ECharts option above is taken from [Apache ECharts Offical Site](https://echarts.apache.org/examples/zh/editor.html?c=line-simple)
